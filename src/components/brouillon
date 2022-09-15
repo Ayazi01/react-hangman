@@ -1,0 +1,25 @@
+// // button.js 
+// console.log(children) = btn1 btn 2
+// console.log(onClickFunc) = undefined
+// console.log(initialGameState) = {started: false, over: false, win: false}
+// console.log(game.started) = false.
+// console.log(words[Math.floor(Math.random()*words.length)]) = medical (random word)
+
+// after usestate and getnewword:
+// const handleStart = () => {
+//     setGame({ ...game, started: !game.started });
+//      getNewWord()
+//   }
+
+//   const [word, setWord] = useState({str: "", reveiled:[]})
+  
+
+//   const getNewWord = ()=>{
+//     if (word.str==="")
+//     return setWord(words[Math.floor(Math.random()*words.length)], word.toString().split("") ) 
+//     let reveiled = word.toString().split('') (it works but not the usestate)
+//   }
+
+
+
+  
